@@ -31,24 +31,24 @@ With an insurance as a smart contract the claim is secure. After taking out the 
 - MetaMask
 
 ## Example
-![](https://github.com/HM2021-BC/BC-GROUP2/blob/web3_js/flightDelay/images/NewWireframe1.png)
 
-![](/projects/BC-GROUP2/flightDelay/images/NewWireframe2.png)
+The following MockUps simulate the user interface of the insurance.
 
-![](/projects/BC-GROUP2/flightDelay/images/NewWireframe3.png)
+![Start Screen without customer information](https://github.com/HM2021-BC/BC-GROUP2/blob/web3_js/flightDelay/images/NewWireframe1.png)
 
-![](/projects/BC-GROUP2/flightDelay/images/NewWireframe4.png)
+![The insurance starts with entering the data of the customer as well as of the flight](https://github.com/HM2021-BC/BC-GROUP2/blob/web3_js/flightDelay/images/NewWireframe2.png)
 
-Some tests have been made to test the implementation.
+![After applying the information the customer has to confirm the terms of the policy. He is able to chose the currency of the payout. With confirming the policy the customer gives his agreement and activates the smart contract.](https://github.com/HM2021-BC/BC-GROUP2/blob/web3_js/flightDelay/images/NewWireframe3.png)
 
+![The customer will receive a summary of his chosen policy.](https://github.com/HM2021-BC/BC-GROUP2/blob/web3_js/flightDelay/images/NewWireframe4.png)
 
 ## Review
-This Smart Contract has been implemented as a part of the Blockchain & Solidity course. The main purpose was to learn the basics about Blockchain and Smart Contracts with the programming language Solidity on the plattform Morpheus Labs SEED.
+This Smart Contract has been implemented as a part of the Blockchain & Solidity course. The main purpose was to learn the basics about Blockchain and Smart Contracts with the programming language Solidity on the platform Morpheus Labs SEED.
 
 The implementation of this project hasn't been finished yet. The reasons are as follows:
 - lack of time
 - missing knowledge about the programming language
-- working on a completely new plattform
+- working on a completely new platform
 - not enough support available on the internet
 
 Therefore a MockUp of the user-interface has been created for the purpose of the presentation.
