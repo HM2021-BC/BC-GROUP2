@@ -12,7 +12,7 @@ The perfect insurance for you!
 - [Solution](#solution)
 - [Technologies](#technologies)
 - [Example](#example)
-- [Development_&_Review](#development_&_review)
+- [Review](review)
 - [Members](#members)
 
 ## Problem
@@ -31,12 +31,18 @@ With an insurance as a smart contract the claim is secure. After taking out the 
 - MetaMask
 
 ## Example
-*insert pics*
+/projects/BC-GROUP2/flightDelay/images/New Wireframe 1.png
+
+/projects/BC-GROUP2/flightDelay/images/New Wireframe 1 copy.png
+
+/projects/BC-GROUP2/flightDelay/images/New Wireframe 1 copy 2.png
+
+/projects/BC-GROUP2/flightDelay/images/New Wireframe 1 copy 3.png
 
 Some tests have been made to test the implementation.
 
 
-## Development & Review
+## Review
 This Smart Contract has been implemented as a part of the Blockchain & Solidity course. The main purpose was to learn the basics about Blockchain and Smart Contracts with the programming language Solidity on the plattform Morpheus Labs SEED.
 
 The implementation of this project hasn't been finished yet. The reasons are as follows:
