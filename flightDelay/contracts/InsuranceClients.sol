@@ -7,8 +7,8 @@ contract InsuranceClients {
 
     address[] public clients;
 
-    function createClient(uint bookingId, uint flightId) public {
-        address newClient = address (new FlightDelay(bookingId, flightId, msg.sender));
+    function createClient(string memory flightId) public {
+        address newClient = address (new FlightDelay(flightId, msg.sender));
         clients.push(newClient);
     }
 

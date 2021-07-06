@@ -4,46 +4,56 @@ pragma solidity ^0.5.16;
 contract FlightDelay {
     
     struct Claim {
-        uint bookingNr;
-        uint flightNr;
+        string flightNr;
         uint amount;
+        string start;
+        string destination;
+        string date;
+        string time;
         address payable client;
     }
 
     Claim[] public claims;
 
     address public insurance_company;
+    string public start;
+    string public destination;
+    string public date;
+    string public time;
 
-    uint public bookingId;
-    uint public flightId;
+    string public flightId;
     uint constant delay = 60;   // 60 Minuten Verspätung
 
     // Constructor
-    constructor(uint client_bookingId, uint client_flightId, address owner) public {
+    constructor(string memory _flightId,address owner) public {
         insurance_company = owner;
-        bookingId = client_bookingId;
-        flightId = client_flightId;
+        flightId = _flightId;
     }
 
     modifier companyOnly() {
-        require(msg.sender == insurance_company);
+        require(insurance_company == msg.sender);
         _;
     }
 
-    function createClaim(uint claim_bookingId, uint claim_flightId, uint claim_amount, address payable claim_client) public companyOnly() {
+    function createClaim(string memory _flightId, uint _amount,
+                        string memory _start, string memory _destination, string memory _date,
+                        string memory _time, address payable claim_client) public companyOnly() {
         Claim memory newClaim = Claim({
-            bookingNr : claim_bookingId,
-            flightNr : claim_flightId,
-            amount : claim_amount,
+            flightNr : _flightId,
+            amount : _amount,
+            start : _start,
+            destination : _destination,
+            date : _date,
+            time : _time,
             client : claim_client
         });
         claims.push(newClaim);
     }
 
-    // Funktion, die die Verspätung in Minuten einliest und den richtigen Payment Code zuweist
     function payout(uint actualDelay, uint claim_id) public payable companyOnly() {
-        Claim storage claim = claims[claim_id];
-
+        require(claim_id < claims.length, "FlightDelay: Index out-of-bound");
+        Claim memory claim = claims[claim_id];
+ 
         if (actualDelay > delay) {
             claim.client.transfer(claim.amount);
         }
