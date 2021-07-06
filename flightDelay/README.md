@@ -11,8 +11,8 @@ The perfect insurance for you!
 - [Problem](#problem)
 - [Solution](#solution)
 - [Technologies](#technologies)
-- [Example](#example)
-- [Review](review)
+- [MockUp](#mockup)
+- [Review](#review)
 - [Members](#members)
 
 ## Problem
@@ -30,7 +30,7 @@ With an insurance as a smart contract the claim is secure. After taking out the 
 - Truffle
 - MetaMask
 
-## Example
+## MockUp
 
 The following MockUps simulate the user interface of the insurance.
 
