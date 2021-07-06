@@ -31,7 +31,7 @@ With an insurance as a smart contract the claim is secure. After taking out the 
 - MetaMask
 
 ## Example
-/projects/BC-GROUP2/flightDelay/images/New Wireframe 1.png
+![](/projects/BC-GROUP2/flightDelay/images/New Wireframe 1.png)
 
 /projects/BC-GROUP2/flightDelay/images/New Wireframe 1 copy.png
 
