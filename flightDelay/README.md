@@ -1,8 +1,8 @@
-# Travel Monkeys
+# Flying Coins
 
-Travel Monkeys is a Smart Contract that allows people, who want to travel by plane, to hedge their flights against the risk of a possible delay.
+Flying Coins is a Smart Contract that allows people, who want to travel by plane, to hedge their flights against the risk of a possible delay.
 
-The project Travel Monkeys is about a Flight Delay Insurance that should help customers to automatically get compensation for a delayed flight without the need of paperwork.
+The project Flying Coins is about a Flight Delay Insurance that should help customers to automatically get compensation for a delayed flight without the need of paperwork.
 The Insurance Company does not need to examine if a claim is valid. Therefore, the customers are able to receive the payment faster. This project should benefit both parties in saving time and efforts. 
 
 The perfect insurance for you!
